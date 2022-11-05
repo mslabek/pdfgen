@@ -1,0 +1,8 @@
+rootProject.name = 'pdfgen'
+
+include 'pdfgen-generator'
+include 'pdfgen-api'
+include 'pdfgen-template'
+include 'pdfgen-core'
+include 'pdfgen-persistence'
+

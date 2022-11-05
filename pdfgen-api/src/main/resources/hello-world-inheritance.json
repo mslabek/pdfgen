@@ -1,0 +1,55 @@
+{
+  "name": "Hello world inheritance",
+  "root": {
+    "styles": {
+      "i-font-size": 50
+    },
+    "children": [
+      {
+        "type": "block",
+        "text": "${value1}",
+        "styles": {
+          "alignment": "center",
+          "spacing-after": 80
+        },
+        "children": [
+          {
+            "type": "block",
+            "text": "${value2}",
+            "styles": {
+              "alignment": "center",
+              "font-size": 16,
+              "spacing-after": 40
+            }
+          }
+        ]
+      },
+      {
+        "type": "line_break",
+        "styles": {
+          "spacing-after": 40
+        }
+      },
+      {
+        "type": "block",
+        "text": "${value3}",
+        "styles": {
+          "alignment": "center",
+          "i-font-size": 20,
+          "spacing-after": 80
+        },
+        "children": [
+          {
+            "type": "block",
+            "text": "${value4}",
+            "styles": {
+              "alignment": "center",
+              "font-size": 16,
+              "spacing-after": 40
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

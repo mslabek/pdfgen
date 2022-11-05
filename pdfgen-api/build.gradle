@@ -1,0 +1,27 @@
+plugins {
+    id 'org.springframework.boot' version '2.7.5'
+    id 'io.spring.dependency-management' version '1.0.11.RELEASE'
+    id 'java'
+}
+
+group = 'com.example'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '1.8'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation project(':pdfgen-template')
+    implementation project(':pdfgen-generator')
+    implementation project(':pdfgen-persistence')
+    implementation project(':pdfgen-core')
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    implementation 'org.springframework.boot:spring-boot-starter-validation:2.7.5'
+    implementation 'org.mapstruct:mapstruct:1.5.3.Final'
+    implementation 'org.springdoc:springdoc-openapi-ui:1.6.11'
+    compileOnly 'org.projectlombok:lombok'
+    annotationProcessor 'org.projectlombok:lombok'
+    annotationProcessor 'org.mapstruct:mapstruct-processor:1.5.3.Final'
+}

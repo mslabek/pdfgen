@@ -1,0 +1,62 @@
+{
+  "name": "Umowa najmu",
+  "root": {
+    "children": [
+      {
+        "text": "Umowa najmu lokalu mieszkalnego",
+        "styles": {
+          "alignment": "center",
+          "font-size": 16,
+          "spacing-after": 40
+        }
+      },
+      {
+        "text": "Zawarta w dniu ${signingDate} w ${signingPlace} pomiędzy ${renterName} zwanym w treściu umowy jako \"Wynajmujący\", a ${renteeName} zwanym w treściu umowy jako \"Najemca\"",
+        "styles": {
+          "alignment": "justify"
+        }
+      },
+      {
+        "text": "§ 1.",
+        "styles": {
+          "alignment": "center",
+          "spacing-before": 20
+        },
+        "children": [
+          {
+            "text": "Wynajmujący oświadcza, że jest właścicielem mieszkania położonego na ${floorNumber}",
+            "styles": {
+              "alignment": "justify"
+            }
+          }
+        ]
+      },
+      {
+        "text": "§ 2.",
+        "styles": {
+          "alignment": "center",
+          "spacing-before": 20
+        },
+        "children": [
+          {
+            "text": "Strony ustalają, iż wszelkie koszty i świadczenia związane z eksploatacją lokalu mieszkalnego, przez czas trwania umowy, ponosić będzie Najemca"
+          }
+        ]
+      },
+      {
+        "text": "Najemca                                                      Wynajmujący",
+        "styles": {
+          "alignment": "center",
+          "spacing-before": 30
+        }
+      },
+      {
+        "text": "_________                                                  ________________",
+        "styles": {
+          "alignment": "center",
+          "spacing-before": 20
+        }
+      }
+    ]
+  }
+}
