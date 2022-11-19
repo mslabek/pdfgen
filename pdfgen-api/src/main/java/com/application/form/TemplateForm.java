@@ -1,6 +1,5 @@
 package com.application.form;
 
-import com.application.TemplateNodeDto;
 import com.application.validation.ValidTemplateForm;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -13,6 +12,7 @@ import lombok.NoArgsConstructor;
 public class TemplateForm {
 
     private String name;
-    private TemplateNodeDto root;
+
+    private TemplateNodeForm root;
 
 }
